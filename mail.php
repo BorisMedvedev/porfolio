@@ -16,8 +16,9 @@
 // echo $_POST['message'];
 // echo "<br>";
 
-$mail_to = "info@hudeem-pp.ru"; // Email куда будет отправлено письмо
-$email_from = "b.medvedev@shop-chop.ru"; // Указываем от кого будет отправлено письмо, email, reply to
+
+$mail_to = "hudeem-pp@yandex.ru"; // Email куда будет отправлено письмо
+$email_from = "hudeem-pp@yandex.ru"; // Указываем от кого будет отправлено письмо, email, reply to
 $name_from = "Личный сайт портфолио"; // Указываем от кого будет отправлено письмо, имя
 $subject = "Сообщение с сайта!"; // Тема письма
 
