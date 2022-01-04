@@ -25,7 +25,7 @@ $subject = "Сообщение с сайта!"; // Тема письма
 // Формируем текст письма
 $message =  "Вам пришло новое сообщение с сайта: <br><br>\n" .
     "<strong>Имя отправителя:</strong>" . strip_tags(trim($_POST['name'])) . "<br>\n" .
-    "<strong>Email отправителя: </strong>" . strip_tags(trim($_POST['phone'])) . "<br>\n" .
+    "<strong>Телефон отправителя: </strong>" . strip_tags(trim($_POST['phone'])) . "<br>\n" .
     "<strong>Сообщение: </strong>" . strip_tags(trim($_POST['message']));
 
 // Формируем тему письма, специально обрабатывая её
