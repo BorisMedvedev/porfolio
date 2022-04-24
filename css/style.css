@@ -1035,6 +1035,10 @@ body {
   visibility: visible;
 }
 
+.skills__img {
+  box-shadow: -5px 3px 10px 1px rgb(40 70 90 / 10%);
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 15px 0 15px;
