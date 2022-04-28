@@ -1054,7 +1054,7 @@ body {
 
     &__text-title {
       font-weight: 700;
-      font-size: 48px;
+      font-size: 28px;
       margin-bottom: 120px;
       margin-bottom: 120px;
     }
@@ -1207,15 +1207,7 @@ body {
     bottom: 1px;
   }
 
-  .services {
-    padding: 42px 0;
 
-    &__text-title {
-      font-weight: 700;
-      font-size: 48px;
-      margin-bottom: 120px;
-    }
-  }
 
   .filter {
     &__item {
@@ -1269,6 +1261,14 @@ body {
   .footer {
     padding: 33px 0;
   }
+
+  .services {
+    padding: 42px 0;
+
+    &__text-title {
+      font-size: 28px;
+    }
+  }
 }
 
 @media (max-width: 320px) {
@@ -1286,5 +1286,13 @@ body {
 
   .statistics {
     justify-content: center;
+  }
+
+  .services {
+    padding: 42px 0;
+
+    &__text-title {
+      font-size: 28px;
+    }
   }
 }
