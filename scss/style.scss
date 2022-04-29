@@ -396,11 +396,10 @@ body {
       background-size: cover;
       background-position: center;
       z-index: 999;
-
     }
 
     &--code::before {
-      background-image: url('../image/services_icon1.svg');
+      background-image: url("../image/services_icon1.svg");
     }
 
     &--cms::before {
@@ -447,7 +446,6 @@ body {
     height: 200px;
     margin-bottom: 25px;
     margin-right: 25px;
-
   }
 
   &__link {
@@ -457,14 +455,13 @@ body {
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 4px 5px hsla(0, 0, 0, .1),
-      -2px 4px 5px hsla(0, 0, 0, .1);
-    transition: all .2s ease;
+    box-shadow: 2px 4px 5px hsla(0, 0, 0, 0.1), -2px 4px 5px hsla(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
 
     &:hover {
       transform: translateY(-3px);
-      box-shadow: 2px 9px 50px hsla(0, 0, 0, .1),
-        -2px 9px 60px hsla(0, 0, 0, .1);
+      box-shadow: 2px 9px 50px hsla(0, 0, 0, 0.1),
+        -2px 9px 60px hsla(0, 0, 0, 0.1);
     }
   }
 }
@@ -621,8 +618,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
-
 
   &__item {
     position: relative;
@@ -1207,8 +1202,6 @@ body {
     bottom: 1px;
   }
 
-
-
   .filter {
     &__item {
       margin-bottom: 15px;
@@ -1216,7 +1209,6 @@ body {
   }
 
   .statistics {
-
     &__item {
       padding: 70px 10px 4px;
       margin-right: 10px;
